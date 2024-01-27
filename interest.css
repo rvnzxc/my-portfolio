@@ -1,0 +1,143 @@
+label{
+    position:relative;
+    top: 10px;
+    left: 75px;
+    color: white;
+    text-indent: 100px;
+    font-family: "Comic Neue", cursive;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 300%;
+    float:left;
+}
+*{
+    padding:0;
+    margin:0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+nav{
+    background-color: #93C572 ;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+}
+nav ul{
+    position:static;
+    top: 8px;
+    right: 16px;
+    color: white;
+    float: right;
+    margin-right: 20px;
+}
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color:white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+a.active,a:hover{
+    background: #A3EE72 ;
+    transition: .5s;
+
+}
+h1{
+    text-align: center;
+    font-family: "Comic Neue", cursive;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 300%;
+}
+.details-container {
+    padding      : 1.5rem;
+    flex         : 1;
+    background   : white;
+    border-radius: 2rem;
+    border       : rgb(53, 53, 53) 0.1rem solid;
+    border-color : rgb(163, 163, 163);
+    text-align   : center;
+    margin-bottom: 20px;
+}
+img{
+    margin-top: 2%;
+    border-radius: 10%;
+
+}
+.transbox{
+    background: rgba(255, 255, 255, 0.712);
+    width: 450px;
+    height: 400px;
+    line-height: 250x;
+    color: rgb(0, 0, 0);
+    font-size: 300%;
+    font-family: "Comic Neue", cursive;
+    font-weight: bold;
+    font-style: normal;
+    display: block;
+    margin-left: 10%;
+    margin-right: 0;
+    padding: 7px 13px;
+    text-align: center;
+    border-radius: 10%;
+}
+.gamingpre{
+    font-family: "Comic Neue", cursive;
+    font-weight: 400;
+    font-style: normal;
+    display: block;
+    font-size: medium;
+
+} 
+.transbox2{
+    background: rgba(255, 255, 255, 0.712);
+    width: 450px;
+    height: 400px;
+    line-height: 250x;
+    color: rgb(0, 0, 0);
+    font-size: 300%;
+    font-family: "Comic Neue", cursive;
+    font-weight: bold;
+    font-style: normal;
+    display: block;
+    margin-left: 40%;
+    margin-right: 0;
+    padding: 7px 13px;
+    text-align: center;
+    border-radius: 10%;
+    margin-top: -20.9%;
+}
+.transbox3{
+    background: rgba(255, 255, 255, 0.712);
+    width: 450px;
+    height: 400px;
+    line-height: 250x;
+    color: rgb(0, 0, 0);
+    font-size: 300%;
+    font-family: "Comic Neue", cursive;
+    font-weight: bold;
+    font-style: normal;
+    display: block;
+    margin-left: 70%;
+    margin-right: 0;
+    padding: 7px 13px;
+    text-align: center;
+    border-radius: 10%;
+    margin-top: -20.9%;
+}
+.zoom {
+    padding: 50px;
+    background-color: green;
+    transition: transform .2s; /* Animation */
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+.zoom:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }

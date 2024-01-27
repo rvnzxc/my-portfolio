@@ -1,0 +1,125 @@
+label{
+    position:relative;
+    top: 10px;
+    left: 75px;
+    color: white;
+    text-indent: 100px;
+    font-family: "Comic Neue", cursive;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 300%;
+    float:left;
+}
+*{
+    padding:0;
+    margin:0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+nav{
+    background-color: #93C572 ;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+}
+nav ul{
+    position:static;
+    top: 8px;
+    right: 16px;
+    color: white;
+    float: right;
+    margin-right: 20px;
+}
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color:white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+a.active,a:hover{
+    background: #A3EE72 ;
+    transition: .5s;
+
+}
+.img1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40%;
+}
+.pre1{
+    text-align: center;
+    font-size:xx-large;
+    font-family: "Comic Neue", cursive;
+    font-weight: 600;
+    font-style: normal;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}div.scroll-container {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 500px;
+        background-color: rgba(255, 255, 255, 0) ;
+        overflow: auto;
+        white-space: nowrap;
+        padding: 10px;
+}
+div.scroll-container img {
+    padding: 10px;
+}
+img{
+    border-radius: 10%;
+}
+h1{
+    background: rgba(255, 255, 255, 0);
+    width: 350px;
+    height: 80px;
+    border-radius: 100px;
+    line-height: 250x;
+    color: rgb(0, 0, 0);
+    margin: 0 auto;
+    font-size: 400%;
+    text-align: center;
+    font-family: "Comic Neue", cursive;
+    font-weight: bold;
+    font-style: normal;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+pre{
+    text-align: center;
+    font-size:xx-large;
+    font-family: "Comic Neue", cursive;
+    font-weight: 600;
+    font-style: normal;
+}
+.transbox{
+    background: rgb(255, 255, 255);
+    width: 350px;
+    height: 65px;
+    border-radius: 100px;
+    line-height: 250x;
+    color: rgb(0, 0, 0);
+    margin: 0 auto;
+    font-size: 300%;
+    text-align: center;
+    font-family: "Comic Neue", cursive;
+    font-weight: bold;
+    font-style: normal;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 7px 13px;
+
+}
